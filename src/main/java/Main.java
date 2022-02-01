@@ -12,7 +12,8 @@ public class Main {
         });
 
         app.get("/parameter", ctx -> {
-            ctx.render("parameter.jte", Collections.singletonMap("name", "Viktor"));
+            Map<String, String> parameterForJTE = Collections.singletonMap("name", "Viktor");
+            ctx.render("parameter.jte", parameterForJTE);
         });
         
     }
