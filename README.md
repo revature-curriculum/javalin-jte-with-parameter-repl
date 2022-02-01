@@ -1,18 +1,17 @@
-## Javalin JTE
+## Javalin JTE with Parameter
 ---
 ### Description
-In this lab, we will cover how to use JTEs with your Javalin web application.
+In this lab, we will cover how to send parameters to jte files.
 
 ---
 ### Steps
-1. In src -> main -> java, create a new class called WaterBottle with fields brandName and amount.
-2. Create a corresponding jte file with an if-else if-else statement with conditions based on the amount:
-* if amount is less than or equal to 0, then have the web page display: “I’m dying of thirst.” 
-* else if amount is greater than 50, then have the web page display: "I am content."
-* else(amount is 100), then have the web page display: "I'm always hydrated."
+1. In src -> main -> java -> Main.java, create a '/age' route.
+2. Render the age.jte file in the new route you created.
+3. Use Collections.singletonMap with a key-value pair of your choice to send your age to the jte file. Use the parameter example given as reference.
+4. In src -> main -> jte -> age.jte, add an int parameter of your age at the top of the page and statement showcasing your age in the body tags.
 ---
 ### Sample Output
 ```
-I'm always hydrated.
+I am 24 years old!
 ```
 ---
