@@ -1,3 +1,4 @@
+@param int age
 
 <html lang="en">
 
@@ -6,6 +7,7 @@
 </head>
 <body>
 
+  I am ${age} years old!
 
 </body>
 </html>

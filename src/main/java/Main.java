@@ -16,5 +16,8 @@ public class Main {
             ctx.render("parameter.jte", parameterForJTE);
         });
         
+        app.get("/age", ctx -> {
+            ctx.render("age.jte", Collections.singletonMap("age", 23));
+        });
     }
 }

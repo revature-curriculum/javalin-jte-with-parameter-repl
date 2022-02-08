@@ -1,5 +1,5 @@
-## JTE with Parameter
----
+## JTE with Parameter Answer
+--- 
 ### Description
 In this lab, we will cover how to send parameters to jte files.
 
